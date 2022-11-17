@@ -12,6 +12,7 @@ export class TodoClass extends React.Component {
   render() {
     return (
       <>     
+      <div className="container"> 
             <input
               type="text"
               value={this.state.todoList}
@@ -31,6 +32,7 @@ export class TodoClass extends React.Component {
                   </div>
                 );
               })}   
+              </div>
       </>
     );
   }
